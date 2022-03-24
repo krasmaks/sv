@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'Pacifico';
+	src: url('pacifico.ttf');
+}
+@font-face {
+	font-family: 'Mulish';
+	src: url('mulish.ttf');
+}
+:root {
+	--main-color: red;
+	--bg: white;
+}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Mulish', 'Pacifico', 'Segoe UI', sans-serif;
+	color: black;
+}
+body {
+	padding: 0 1em;
+	background-color: var(--bg);
+}
+h1 {
+	margin: 1em;
+	font-size: 3.2em;
+	font-family: 'Pacifico', 'Mulish', 'Segoe UI', sans-serif;
+	color: var(--main-color);
+}
+h3 {
+	font-size: 1.9em;
+	font-weight: 900;
+}
+table {
+	margin: 1em auto;
+	font-size: 1em;
+}
+table th, table td, ul li {
+	font-size: 1.4em;
+}
+table th, table td {
+	padding: 1em;
+	vertical-align: middle;
+	border-collapse: collapse;
+}
+table th {
+	color: var(--main-color);
+}
+ul li {
+	margin: 0.75em;
+	list-style-type: none;
+	color: var(--main-color);
+}
