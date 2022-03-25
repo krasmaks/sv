@@ -52,5 +52,6 @@ table th {
 ul li {
 	margin: 0.75em;
 	list-style-type: none;
-	color: var(--main-color);
+	font-weight: 900;
+	color: black;
 }
