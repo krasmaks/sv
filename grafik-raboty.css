@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Pacifico';
+	src: url('pacifico.ttf');
+}
+@font-face {
+	font-family: 'Mulish';
+	src: url('mulish.ttf');
+}
+:root {
+	--main-color: red;
+}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	font-size: 1.04em;
+	font-weight: normal;
+}
+span {
+	color: var(--main-color);
+}
+sup {
+	font-size: 0.8em;
+}
+h1 {
+	margin: 2.3rem 0;
+	color: var(--main-color);
+	font-family: 'Pacifico';
+	font-size: 2.85em;
+}
+table {
+	margin-left: 0.8rem;
+	width: calc(100vw - 1.6rem);
+}
+table tr th, table tr td {
+	padding: 0 0.3rem;
+	font-size: 1.4em;
+}
+table tr th {
+	width: calc(50vw - 0.8rem);
+	text-align: right;
+}
+table tr td {
+	text-align: left;
+}
+p {
+	margin-top: 2rem;
+	font-size: 1.3em;
+}
+p > span {
+	margin-top: 2rem;
+	color: black;
+	font-size: 2.2em;
+}
+p span span {
+	color: var(--main-color);
+}
+h3 {
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+	color: var(--main-color);
+	font-family: 'Pacifico';
+	font-size: 1.25rem;
+}
